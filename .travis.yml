@@ -6,3 +6,11 @@ deploy:
   app: chickenpi
   on:
     repo: joergsesterhenn/chickenpi
+  addons:
+    sonarcloud:
+      organization: "joergsesterhenn-github"
+      token:
+        secure: MQsSp1kNBxTbSH38eXO7DjyB+Fmaklv88JDanZQJcWJ6q9Xh0cy5QivUkh7PmWwTXRL8bggg8sFJfmb/mGMFOBtjaxlo9RfMsqWfaO3YQUNC+taESTffx2sxhK+6+Z/2NJsl/07+nMwuYQ7j0/9cP5YVvqe+RkDLfxElMEEYyyib9s3ERqxTtK5FHMRX3AOZrAiVqDhi7zR/+1WCwFspyo89j+nqx/iZDr3rXGt5KSDLhObniRzLj1X6Ys7n8JvrSCRKoz9BaqIbToaTcXqZSDWoouqqMb38o+FFD9Pqj7lpbFxHVWlFIXeEu//GZnawD2sHSrgKSrow+NJT/TmRKgWafqBkplNN7SiD8M7r8gFKhSY27JNv/5kQgpm6xM4Z3AEEiNHjOK20PLqVAsqoPDMG1p71YVL55o936blQ2oS6mGPfv+cmDs8kqHJm0tM8tb44FYZtHOlHtqOp96RLFwAXOGFnEcunllmD0yTUogP8sKD6C6Gy5RWbsNsCMtpqRyjUWYj4lvPDdxaEtgTpYZAKELJMNbh7/5Do1PHc3nZtsSpqRLM38iMeMBytFAuxPo7cTkOrnyoMmPOVH85x8PPus0u7eoqbkQvyUGfQCdA3ACp8dagwvydDIltUwONVT61Q8uEqCbP5+GK/W2g91yH+V+CsCNe/DIpQ9zaNmpA=
+  script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar

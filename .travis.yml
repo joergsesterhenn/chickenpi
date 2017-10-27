@@ -1,3 +1,4 @@
+language: java
 deploy:
   provider: heroku
   app: intense-scrubland-63679

@@ -12,7 +12,7 @@ public class ChickenPiServerApplication extends Application<ChickenPiServerConfi
 
     @Override
     public String getName() {
-        return "chickenpi server";
+        return "ChickenPiServer";
     }
 
     @Override

@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/joergsesterhenn/chickenpi/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Welcome to chickenpi [![Build Status](https://travis-ci.org/joergsesterhenn/chickenpi.svg?branch=docs)](https://travis-ci.org/joergsesterhenn/chickenpi) ![Quality gate status](https://sonarcloud.io/api/badges/gate?key=de.chickenpi%3Achickenpi)
+<img style="float: right;" alt="chickenpi logo" src="https://github.com/joergsesterhenn/chickenpi/raw/master/chickenpi.png" height="200">
+Chickenpi is a node.js/raspberry pi chicken coop management solution - currently in inception phase.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Architecture
+<img alt="architecture" src="https://github.com/joergsesterhenn/chickenpi/blob/docs/chickenpi.png" height="400">
 
-### Markdown
+# Technology
+## Software
+### chickenpi-app
+* [angular](https://angular.io)
+* [angularfire2](https://github.com/angular/angularfire2)
+* [socket.io](https://github.com/socketio/socket.io)
+* [d3-ng2-service](https://github.com/tomwanzek/d3-ng2-service) 
+* [webcam](http://thejackalofjavascript.com/rpi-live-streaming/) (?) 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### chickenpi-server
+* [firebase](https://console.firebase.google.com/project/chickenpi-server/overview) hosting and datastore
 
-```markdown
-Syntax highlighted code block
+### cickenpi-client (on raspberry pi)
+* [agenda](https://github.com/agenda/agenda) 
+* [onoff](https://github.com/fivdi/onoff) 
+* [socket.io](https://github.com/socketio/socket.io)
+* [firebase-sdk](https://firebase.google.com/support/release-notes/js)
 
-# Header 1
-## Header 2
-### Header 3
+## Hardware
+* raspberry pi 2 + edimax USB Wifi dongle
+* temperature and humidity sensor DHT22
+* motor controller board L98N + servo motor (for coop door)
+* 4 relay module (for lights, ...)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/joergsesterhenn/chickenpi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+_Ideas for later_
+* [RFID](http://www.sunspot.co.uk/Projects/RFID/Chickens_RFID.html)

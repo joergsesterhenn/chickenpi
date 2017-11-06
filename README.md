@@ -1,5 +1,5 @@
 
-## Welcome to chickenpi [![Build Status](https://travis-ci.org/joergsesterhenn/chickenpi.svg?branch=docs)](https://travis-ci.org/joergsesterhenn/chickenpi) ![Quality gate status](https://sonarcloud.io/api/badges/gate?key=de.chickenpi%3Achickenpi)
+## Welcome to chickenpi [![Build Status](https://travis-ci.org/joergsesterhenn/chickenpi.svg?branch=docs)](https://travis-ci.org/joergsesterhenn/chickenpi) <a href="https://sonarcloud.io/dashboard?id=de.chickenpi:chickenpi"><img alt="Quality gate status" src="https://sonarcloud.io/api/badges/gate?key=de.chickenpi:chickenpi"/></a>
 <img style="float: right;" alt="chickenpi logo" src="https://github.com/joergsesterhenn/chickenpi/raw/master/chickenpi.png" height="200">
 Chickenpi is a node.js/raspberry pi chicken coop management solution - currently in inception phase.
 

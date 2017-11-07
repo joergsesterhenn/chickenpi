@@ -1,6 +1,7 @@
 
-## Chickenpi
 <img style="float: right;" alt="chickenpi logo" src="https://github.com/joergsesterhenn/chickenpi/raw/master/chickenpi.png" height="200">
+
+## Chickenpi
 Chickenpi is a node.js/raspberry pi chicken coop management solution - currently in inception phase.
 This repository only holds documentation. 
 

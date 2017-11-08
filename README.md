@@ -1,5 +1,5 @@
 
-<img style="float: right;" alt="chickenpi logo" src="https://github.com/joergsesterhenn/chickenpi/raw/master/chickenpi.png" height="200">
+<img align="right" alt="chickenpi logo" src="https://github.com/joergsesterhenn/chickenpi/raw/master/chickenpi.png" height="200">
 
 ## Chickenpi
 Chickenpi is a node.js/raspberry pi chicken coop management solution - currently in inception phase.
@@ -10,14 +10,15 @@ This repository only holds documentation.
 
 # Technology
 ## Software 
-### [chickenpi-app](https://github.com/joergsesterhenn/chickenpi-app) [![Build Status](https://travis-ci.org/joergsesterhenn/chickenpi-app.svg?branch=docs)](https://travis-ci.org/joergsesterhenn/chickenpi-app) <a href="https://sonarcloud.io/dashboard?id=de.chickenpi:chickenpi-app"><img alt="quality gate status" src="https://sonarcloud.io/api/badges/gate?key=de.chickenpi:chickenpi-app"/></a> <a href="https://david-dm.org/joergsesterhenn/chickenpi-app"> <img alt="dependencies up to date status" src="https://david-dm.org/joergsesterhenn/chickenpi-app.svg"/></a>
+### [chickenpi-app](https://github.com/joergsesterhenn/chickenpi-app) [![Build Status](https://travis-ci.org/joergsesterhenn/chickenpi-app.svg?branch=master)](https://travis-ci.org/joergsesterhenn/chickenpi-app) <a href="https://sonarcloud.io/dashboard?id=de.chickenpi:chickenpi-app"><img alt="quality gate status" src="https://sonarcloud.io/api/badges/gate?key=de.chickenpi:chickenpi-app"/></a> <a href="https://david-dm.org/joergsesterhenn/chickenpi-app"> <img title="dependencies status" src="https://david-dm.org/joergsesterhenn/chickenpi-app/status.svg"/></a><a href="https://david-dm.org/joergsesterhenn/chickenpi-app?type=dev" title="devDependencies status"><img src="https://david-dm.org/joergsesterhenn/chickenpi-app/dev-status.svg"/></a>
+--> hosted app: https://chickenpi-server.firebaseapp.com/
 * [angular](https://angular.io)
 * [angularfire2](https://github.com/angular/angularfire2)
 * [socket.io](https://github.com/socketio/socket.io)
 * [d3-ng2-service](https://github.com/tomwanzek/d3-ng2-service) 
 * [webcam](http://thejackalofjavascript.com/rpi-live-streaming/) (?) 
 
-### [cickenpi-client](https://github.com/joergsesterhenn/chickenpi-client) [![Build Status](https://travis-ci.org/joergsesterhenn/chickenpi-app.svg?branch=docs)](https://travis-ci.org/joergsesterhenn/chickenpi-app) <a href="https://sonarcloud.io/dashboard?id=de.chickenpi:chickenpi-app"><img alt="quality gate status" src="https://sonarcloud.io/api/badges/gate?key=de.chickenpi:chickenpi-app"/></a> <a href="https://david-dm.org/joergsesterhenn/chickenpi-app"> <img alt="dependencies up to date status" src="https://david-dm.org/joergsesterhenn/chickenpi-app.svg"/></a>
+### [cickenpi-client](https://github.com/joergsesterhenn/chickenpi-client) [![Build Status](https://travis-ci.org/joergsesterhenn/chickenpi-client.svg?branch=master)](https://travis-ci.org/joergsesterhenn/chickenpi-client) <a href="https://sonarcloud.io/dashboard?id=de.chickenpi:chickenpi-client"><img alt="quality gate status" src="https://sonarcloud.io/api/badges/gate?key=de.chickenpi:chickenpi-client"/></a> <a href="https://david-dm.org/joergsesterhenn/chickenpi-client"> <img title="dependencies status" src="https://david-dm.org/joergsesterhenn/chickenpi-client/status.svg"/></a><a href="https://david-dm.org/joergsesterhenn/chickenpi-client?type=dev" title="devDependencies status"><img src="https://david-dm.org/joergsesterhenn/chickenpi-client/dev-status.svg"/></a>
 * [agenda](https://github.com/agenda/agenda) 
 * [onoff](https://github.com/fivdi/onoff) 
 * [socket.io](https://github.com/socketio/socket.io)
@@ -25,6 +26,7 @@ This repository only holds documentation.
 
 ### chickenpi-server
 * [firebase](https://console.firebase.google.com/project/chickenpi-server/overview) hosting, datastore and authentication
+
 
 ## Hardware of the chickenpi-client
 * raspberry pi 2 + edimax USB Wifi dongle

@@ -1,38 +1,21 @@
-
-<img align="right" alt="chickenpi logo" src="https://github.com/joergsesterhenn/chickenpi/raw/master/chickenpi.png" height="200">
+<img align="right" alt="chickenpi lgoo" src="https://github.com/joergsesterhenn/chickenpi/raw/master/chickenpi.png" height="200">
 
 ## Chickenpi
-Chickenpi is a node.js/raspberry pi chicken coop management solution - currently in inception phase.
-This repository only holds documentation. 
 
-# Architecture
-<img alt="architecture" src="https://github.com/joergsesterhenn/chickenpi/blob/master/chickenpi_architecture.png" height="400">
+Chickenpi is an open source raspberry pi chicken coop management solution featuring automatic door, webcam and light controll, as well as temperature monitoring.
+The backend is written in python with fastapi. The frontend in typescript with vue.
+This repository holds documentation and all models required to print caseing for the devices.
 
-# Technology
-## Software 
-### [chickenpi-app](https://github.com/joergsesterhenn/chickenpi-app) [![Build Status](https://travis-ci.org/joergsesterhenn/chickenpi-app.svg?branch=master)](https://travis-ci.org/joergsesterhenn/chickenpi-app) <a href="https://sonarcloud.io/dashboard?id=de.chickenpi:chickenpi-app"><img alt="quality gate status" src="https://sonarcloud.io/api/badges/gate?key=de.chickenpi:chickenpi-app"/></a> <a href="https://david-dm.org/joergsesterhenn/chickenpi-app"> <img title="dependencies status" src="https://david-dm.org/joergsesterhenn/chickenpi-app/status.svg"/></a><a href="https://david-dm.org/joergsesterhenn/chickenpi-app?type=dev" title="devDependencies status"><img src="https://david-dm.org/joergsesterhenn/chickenpi-app/dev-status.svg"/></a>
---> hosted app: https://chickenpi-server.firebaseapp.com/
-* [angular](https://angular.io)
-* [angularfire2](https://github.com/angular/angularfire2)
-* [socket.io](https://github.com/socketio/socket.io)
-* [d3-ng2-service](https://github.com/tomwanzek/d3-ng2-service) 
-* [webcam](http://thejackalofjavascript.com/rpi-live-streaming/) (?) 
+## Hardware
 
-### [cickenpi-client](https://github.com/joergsesterhenn/chickenpi-client) [![Build Status](https://travis-ci.org/joergsesterhenn/chickenpi-client.svg?branch=master)](https://travis-ci.org/joergsesterhenn/chickenpi-client) <a href="https://sonarcloud.io/dashboard?id=de.chickenpi:chickenpi-client"><img alt="quality gate status" src="https://sonarcloud.io/api/badges/gate?key=de.chickenpi:chickenpi-client"/></a> <a href="https://david-dm.org/joergsesterhenn/chickenpi-client"> <img title="dependencies status" src="https://david-dm.org/joergsesterhenn/chickenpi-client/status.svg"/></a><a href="https://david-dm.org/joergsesterhenn/chickenpi-client?type=dev" title="devDependencies status"><img src="https://david-dm.org/joergsesterhenn/chickenpi-client/dev-status.svg"/></a>
-* [agenda](https://github.com/agenda/agenda) 
-* [onoff](https://github.com/fivdi/onoff) 
-* [socket.io](https://github.com/socketio/socket.io)
-* [firebase-sdk](https://firebase.google.com/support/release-notes/js)
+- raspberry pi 2 model B
+- temperature sensor DS18B20
+- motor controller board L98N (for coop door)
+- 4 channel relay module (for lights, ...)
+- logitech c270 webcam
 
-### chickenpi-server
-* [firebase](https://console.firebase.google.com/project/chickenpi-server/overview) hosting, datastore and authentication
-
-
-## Hardware of the chickenpi-client
-* raspberry pi 2 + edimax USB Wifi dongle
-* temperature and humidity sensor DHT22
-* motor controller board L98N + servo motor (for coop door)
-* 4 relay module (for lights, ...)
+<img align="right" alt="chickenpi lgoo" src="https://github.com/joergsesterhenn/chickenpi/raw/master/chickenpi/images/setup_complete.jpg" height="200">
 
 _Ideas for later_
-* [RFID](http://www.sunspot.co.uk/Projects/RFID/Chickens_RFID.html)
+
+- [RFID](http://www.sunspot.co.uk/Projects/RFID/Chickens_RFID.html)

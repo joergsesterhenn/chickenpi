@@ -1,0 +1,62 @@
+Features:
+Driver: L298N Dual H Bridge DC Motor Driver IC
+The terminal supply area of driven part Vs: +5 V ~ +35 V. such as the need to take power within the board, the supply area Vs: 7V ~ 35V
+The peak current of driven part Io: 2A
+the terminal supply of area the logical part Vss: +5 V ~ +7 V (can take power within the board +5 V)
+the operating current range of the logical part : 0 ~ 36mA
+control signal input voltage range:
+Low:-0.3V ≤ Vin ≤ 1.5V
+High: 2.3V ≤ Vin ≤ Vss
+enable signal input voltage range:
+Low: -0.3 ≤ Vin ≤ 1.5V (control signal is invalid)
+High: 2.3V ≤ Vin ≤ Vss (control signal active)
+Maximum power consumption: 20W (when the temperature T = 75 °C)
+Storage temperature: -25 °C ~ +130 °C
+Driver Board Size: 55mm * 49mm * 33mm (with fixed copper pillar and the heat sink height)
+Driver Board Weight: 33g
+Other Extensions: control of direction indicators, the logic part of the plate to take power interface.
+Item specifics:
+Color: Green
+Model number: L298N
+Motor type: Stepper Motor
+Origin: Mainland China
+
+
+
+Beschreibung:
+1. Mit L298N Steuer chip hat das Modul solche Eigenschaften wie starkes Fahren
+Fähigkeit, niedriger Heizwert und starke Anti-Interferenz-Fähigkeit.
+2. Dieses Modul kann eingebaute 78 M05 für elektrische Arbeit über ein treibendes Strom versorgungs teil verwenden. Aber um den Schaden zu vermeiden
+Des spannungs stabilisieren den Chips, verwenden Sie bitte eine externe 5V Logik versorgung, wenn Sie mehr als 12V Antriebs spannung verwenden.
+3. unter Verwendung des Filter kondensators der großen Kapazität, kann dieses Modul dem Strom folgen, um Dioden zu schützen und die Zuverlässigkeit zu verbessern
+
+ 
+
+Spezifikation:
+1. Doppel-H-Brücken antrieb
+2. Chip L298N
+3. Logische Spannung 5V
+4. Antriebs spannung 5V-35V
+5. Logischer Strom 0mA-36mA
+6. Antriebs strom 2A (MAX Einzel brücke)
+7. Lagertemperatur-20 ℃ bis + 135 ℃
+8. Max Leistung 25W
+9. Gewicht 30g
+10. Größe: 43*43*27mm
+
+ 
+
+Grün Dual H Brücke L298N DC Schrittmotor Treiber Controller Board Modul für Ardu Smart Auto Roboter
+
+ 
+
+Dieses Modul ist mit einer eingebauten 5V Leistung integriert. Wenn die Antriebs spannung 7V-35V ist,
+Es kann die Onboard 5V Logik-Strom versorgung ermöglichen; nach der Strom versorgung, nicht eingeben
+Spannung in der Schnitts telle + 5V Strom versorgung, aber Sie können die 5V für den externen Gebrauch führen.
+Wenn ENA IN1 IN2 Steuerung OUT1 OUT2 aktivieren
+Wenn ENB IN3 IN4 Steuerung OUT3 OUT4 aktivieren
+
+ 
+
+Verpackungs inhalt:
+1 Stück x Dual H Bridge L298N DC-Schrittmotortreiber-Steuer platinen modul
